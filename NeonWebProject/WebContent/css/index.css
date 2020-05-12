@@ -1,0 +1,38 @@
+/*home-section-2*/
+
+.home-grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f6fffb;
+    border-radius: 28px;
+}
+
+.home-grid img {
+    width: 700px;
+    border-radius: 4px;
+}
+
+.home-grid-box {
+    margin: auto;
+    padding: 20px;
+}
+
+.home-grid-box h3,
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.home-grid h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.home-grid p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+}
+
